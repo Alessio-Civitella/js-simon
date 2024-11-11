@@ -1,0 +1,54 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f8f9fa;
+}
+
+.container {
+    margin-top: 50px;
+}
+
+h2 {
+    font-size: 2rem;
+    color: #007bff;
+    margin-bottom: 30px;
+}
+
+#numbers, #inputs {
+    display: none;
+    text-align: center;
+    margin-top: 20px;
+}
+
+#countdown {
+    font-size: 2rem;
+    color: red;
+    font-weight: bold;
+}
+
+.display-4 {
+    font-size: 3rem;
+    font-weight: bold;
+}
+
+.input-container {
+    margin-top: 10px;
+}
+
+.input-container input {
+    width: 100px;
+    margin-right: 10px;
+}
+
+.invalid {
+    border-color: red;
+    background-color: #f8d7da;
+}
+
+.valid {
+    border-color: green;
+    background-color: #d4edda;
+}
+
+button {
+    font-size: 1rem;
+}
