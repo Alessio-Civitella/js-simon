@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gioco Numeri</title>
+    <link href="style.css" rel="stylesheet">
+</head>
+<body>
+
+<div class="container">
+    <h2 class="text-center mt-5">Gioco dei Numeri</h2>
+
+    <!-- Sezione per visualizzare i numeri casuali -->
+    <div id="numbers">
+        <h3>Memorizza questi numeri:</h3>
+        <p id="randomNumbers" class="display-4"></p>
+        <div id="countdown"></div>
+    </div>
+
+    <!-- Sezione per gli input dell'utente dopo il countdown -->
+    <div id="inputs">
+        <h3>Inserisci i numeri che hai visto (nell'ordine che preferisci):</h3>
+        <div id="inputFields">
+            <!-- Qui verranno aggiunti gli input dinamicamente -->
+        </div>
+        <button id="checkButton" class="btn btn-primary mt-3">Controlla</button>
+    </div>
+
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
